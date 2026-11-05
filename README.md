@@ -1,1 +1,1 @@
-# Knit Together 2025
+# KnitTogether 2026
