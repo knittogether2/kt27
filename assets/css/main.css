@@ -2791,13 +2791,14 @@ body.index #main {
 /* CTA */
 
 #cta {
-  background-attachment: scroll, scroll, scroll, fixed;
+  background-attachment: scroll, scroll, scroll, scroll, fixed;
   background-color: #645862;
-  background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"),
-    url("../../images/banner.webp");
-  background-position: top left, top right, top left, bottom center;
-  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-  background-size: 25em, 25em, auto, cover;
+  background-image: linear-gradient(rgba(30, 20, 25, 0.45), rgba(30, 20, 25, 0.45)),
+    url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"),
+    url("../../images/fano.jpg");
+  background-position: top left, top left, top right, top left, center center;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat, no-repeat;
+  background-size: cover, 25em, 25em, auto, cover;
   color: #fff;
   padding: 5em;
   text-align: center;
